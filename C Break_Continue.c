@@ -10,10 +10,10 @@ int main()
         	{
     			if (i == 4)
                 	{
-      					break;
-    				}
-    				printf("%d\n", i);
-  			}
+      			break;
+    			}
+    			printf("%d\n", i);
+  		}
    			return 0;
 	}
 
@@ -28,12 +28,12 @@ int main()
   		for (i = 0; i < 10; i++)
         	{
     			if (i == 4)
-                	{
-      					continue;
+                		{
+      				continue;
     				}
-    				printf("%d\n", i);
-  			}   
-  			return 0;
+    			printf("%d\n", i);
+  		}   
+  		return 0;
 	}
 
 //Break In While Loop
@@ -48,12 +48,12 @@ int main()
         	{
     			if (i == 4)
                 	{
-      					break;
-    				}
-    				printf("%d\n", i);
-    				i++;
-  			} 
-  			return 0;
+      				break;
+    			}
+    			printf("%d\n", i);
+    			i++;
+  		} 
+  		return 0;
 	}
 
 //Continue In While Loop
@@ -68,11 +68,11 @@ int main()
         	{
     			if (i == 4)
                 	{
-      					i++;
-      					continue;
-    				}
-    				printf("%d\n", i);
-    				i++;
-  			} 
-  			return 0;
+      				i++;
+      				continue;
+    			}
+    			printf("%d\n", i);
+    			i++;
+  		} 
+  		return 0;
 	}
