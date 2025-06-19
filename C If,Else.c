@@ -60,7 +60,7 @@ int main()
     {
         int age = 21;
 
-    // condition ? true_part : false_part
+        // condition ? true_part : false_part
         (age >= 18) ? printf("Adult") : printf("Minor");
         return 0;
     }
